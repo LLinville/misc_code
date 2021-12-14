@@ -1,6 +1,5 @@
 def digit_sieve(lines, most_common=True):
     for d in range(len(lines[0])):
-        # print(lines)
         ones = [line for line in lines if line[d] == '1']
         zeroes = [line for line in lines if line[d] == '0']
         if most_common:
