@@ -1,0 +1,168 @@
+Ian old church slovanik
+
+old churck and greek comparison
+greek stems are target, and if they follow expected pattern
+inflectional languages, both
+inflectional language has suffixes affixed to nouns that tell you the declention of that noun
+all nouns have patterns depending on part of speech
+suffix in greek that tells class of noun is -on
+Ἄβꙇβ-ος
+авив-ъ
+avivos - aviva class of nouns
+most straightforward pattern:
+	cutting off greek suffix and name or stem ends in consonant and masculine, put in class
+	with bakier-ъ
+	names with vowels end up overlapping marginal inflection classes
+		- hebrew name ending in A
+			- Masculine nouns of a declention class end in a
+Only 9 nouns of that declention class
+	222 feminine nouns
+	mans name got adapted to be flectional 8 class, despite it being very marginal inflection class
+
+header
+-el equiv
+	- greek word for greek
+	- begins with el
+
+-la latin
+	- easy to read
+
+word class has varying details
+mem-
+	- unknown, but attestations in historical documents
+	dictionary ranges from 800s to 1400s
+
+definitions listed are helpful
+	- addendum but easily referencable separately
+
+columns
+header, el-equiv, la-equiv, word class, mem, definition
+
+wants context - translations
+ old sweedish without modern translations
+ looked into appendix of dissertation in his research he found english translations
+ -reading them and was surprised they meant something he wouldn't have guessed. (one syllable word meaning punishment)
+having definitions and context is appealing because he wants to understand and feel he knows what the data is
+sees name in manuscript. who are they?
+
+Wants to see how the sounds of greek words influenced noun classes of equivalent word
+highly inflected languages are interesting because
+people use networking models to see how they are connected
+	- evidence of brains interpreting social systems as analogy of words that sound similar end up behaving similarly in inflected language
+	word in one language became a different class over time in a different language
+	coming across words causes assumptions and new interpretations
+inflection through coming across rhyme
+	- same past sentance
+		rhymed as association words
+	generalization made (climb - climbed)
+		- pattern shared
+		historically laughed at (clomb)
+			- strong verbs of inflection class
+	patterns taking ed ending making them strong words
+	just in verbs
+nouns have 3 genders and inflect in 6-7 cases
+	- paradigm of interrelated words
+		- patterns (syncrotism eg)
+			cases genders overlap in sound
+			class 1
+				-nomnative os
+				accusative on
+				genetive oy
+				dative oy
+				dative genetive are syncronism
+			class 2
+				-n nomnative
+				-s accusative
+				-u genetive
+				-om dative
+			similarities between classes and differences
+			words in class 1/2 sound intrasimilar
+			classes have different member count
+morphophenology of proper names
+	looks at phonology interacts with composition of words
+	putting words together or their components
+	adjacent sounds interact and predict next sounds
+	sweedish has some words with two types of accents that have different melodies
+		- accent 2 word like "field" olker
+		- mirror speille
+		OLker
+		spayELL
+		pitch accents of sweedish are stereotypigenic
+		compound words "field mirror"
+			- pitch accent it ends up with
+				- understanding how it got that pitch accent (accent 1 or 2?)
+chop off endings and see comparison
+all masculine names ending in consonant end in first class?
+if it ends in a vowel, what's the class
+phonological stem informs class the ocs noun is adapted to
+
+individuals interact and make metablackboxes
+
+each in column, one word per row
+
+3109
+	- two listing
+	greek name dionysus
+	ocslk who speek greek chop off -us and ending in dionysy
+		- class that ends in -y
+		other masculine class as first "дионисъ", vs "дионисии"
+			- variations in which form and noun class. How that is evaluated by speakers is of interest
+
+
+egyptioan consonants are more understood than vowels
+wants to teach students how historical linguistics came about
+appreciate how liguistics don't know and it's the best guesses
+
+historical linguestics 1800s new after 1700s
+after 1900s people interested in documeting modern languages scientifically or describing thier components
+1950s modern psycological perspective. How do they know when they know a language and what they know
+
+
+punic to alphabeters:
+	- alice in wonderland without vowels
+	]	-able to read
+top down expectation based on what you already know about language
+	- some think bottom up before fluent speaker that is top down
+
+
+
+desired output:
+
+
+header all
+"HeaderAll": [
+        "дионисъ",
+        "дионисии"
+      ],
+
+"GramEnd": [
+        "иꙗ",
+        "а"
+      ],
+LaEquiv vs LaTrl easiest to read as main key
+
+mem manuscript to look up future links
+dictionary forms are also going to be a lingusts or pholologist determines to be base form
+not every form will show up in corpus
+    - attested in accusative and dative but never nomnative but you know the form it actually is attested in
+
+mem list of abreviations of latin manuscripts
+    - the
+    supr Suprasliensis as physical manuscript
+    - old sweedish tradidtions have similar naming conventions between similar
+
+words containing character in particular
+File ID with each row: another for reference is perceived before header all
+
+in list ****ZIPPED****:
+    - gram end and header
+
+use first column for word and duplicate rows under word for different correlated values
+which manuscripts correspond to which forms
+
+3-4 letters and capitalized are manuscripts "Christ Ochr Slepč Šiš Chrabr Bes Dijav" (cap) under mem
+
+
+
+ONLY PROPR. NOUNS
+

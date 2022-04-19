@@ -1,0 +1,20 @@
+Divide into layers
+given a list of layers of size increasing or decreasing by constant
+len(L0) == 1
+len(Ln) == len(Ln-1) + 6
+
+Move Ln -> L(n +- 1)
+
+place everything from list A into list B
+if you have3 left overs, place them in list C
+
+
+Given a list of lists of positions. Primary axis is main priority
+Move items from L0 -> L1
+Move items from L1 -> L2
+Priority goes to lowest n
+For La -> Lb
+
+Case len(La) < len(Lb)
+    Lb[0:len(La)] = La
+    Lnext[0:len(evicted from Lb)] = evicted from Lb
