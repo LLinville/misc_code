@@ -9,7 +9,8 @@ matches = re.findall('data-id="[0-9]+', results)
 ids = [int(match[9:]) for match in matches]
 ids.sort()
 
-last_retrieved = 15328
+ids=[14]
+last_retrieved = 13
 
 for page_id in ids:
     if page_id <= last_retrieved:
