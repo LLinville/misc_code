@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37f01169-96d8-47aa-8b0f-281e116c28d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/USGS_scraper/downloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global_test/consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global_test/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps_model_downloader/EarthReverseEngineeringUtils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps_model_downloader/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps_model_downloader/downloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/binary_choice_game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/osrs_friend_updater.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USGS_scraper/elevation_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/USGS_scraper/elevation_scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USGS_scraper/downloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/USGS_scraper/downloader.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +132,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ian_Cyrillic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -138,8 +146,8 @@
       <recent name="C:\Users\Eracoy\Google Drive\Coding\Python projects\misc_code\greg_hex_grid" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.downloader">
-    <configuration name="cyrillic_scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.find_overlaps">
+    <configuration name="binary_choice_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="misc_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,11 +155,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ian_Cyrillic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/misc" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ian_Cyrillic/cyrillic_scraper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/misc/binary_choice_game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cyrillic_scraper_all" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="downloader (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="misc_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,11 +176,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ian_Cyrillic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maps_model_downloader" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ian_Cyrillic/cyrillic_scraper_all.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maps_model_downloader/downloader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,20 +210,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="elevation_scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="find_overlaps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="misc_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION" value="python" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/USGS_scraper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maps_model_downloader/EarthReverseEngineeringUtils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/USGS_scraper/elevation_scraper.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maps_model_downloader/EarthReverseEngineeringUtils/find_overlaps.py" />
+      <option name="PARAMETERS" value="37.731605 -119.643157 37.733174 -119.638085" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -223,19 +232,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="first_results" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="osrs_friend_updater" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="misc_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ian_Cyrillic" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Eracoy\virtualenv\graphicsMisc\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ian_Cyrillic/first_results.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/osrs_friend_updater.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,19 +254,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.cyrillic_scraper" />
-      <item itemvalue="Python.cyrillic_scraper_all" />
       <item itemvalue="Python.downloader" />
-      <item itemvalue="Python.elevation_scraper" />
-      <item itemvalue="Python.first_results" />
+      <item itemvalue="Python.osrs_friend_updater" />
+      <item itemvalue="Python.binary_choice_game" />
+      <item itemvalue="Python.downloader (1)" />
+      <item itemvalue="Python.find_overlaps" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.find_overlaps" />
+        <item itemvalue="Python.osrs_friend_updater" />
+        <item itemvalue="Python.downloader (1)" />
+        <item itemvalue="Python.binary_choice_game" />
         <item itemvalue="Python.downloader" />
-        <item itemvalue="Python.elevation_scraper" />
-        <item itemvalue="Python.first_results" />
-        <item itemvalue="Python.cyrillic_scraper" />
-        <item itemvalue="Python.cyrillic_scraper_all" />
       </list>
     </recent_temporary>
   </component>
@@ -398,6 +407,11 @@
           <url>file://$PROJECT_DIR$/USGS_scraper/elevation_scraper.py</url>
           <line>30</line>
           <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/misc/binary_choice_game.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="210" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
