@@ -1,11 +1,11 @@
 import sys
 from collections import defaultdict
 from urllib.request import urlopen
-from proto.rocktree_pb2 import BulkMetadata
-from proto.rocktree_pb2 import PlanetoidMetadata
+from EarthReverseEngineeringUtils.proto.rocktree_pb2 import BulkMetadata
+from EarthReverseEngineeringUtils.proto.rocktree_pb2 import PlanetoidMetadata
 
-from octant_to_latlong import octant_to_latlong
-from octant_to_latlong import LatLonBox
+from EarthReverseEngineeringUtils.octant_to_latlong import octant_to_latlong
+from EarthReverseEngineeringUtils.octant_to_latlong import LatLonBox
 
 PLANET = "earth"
 URL_PREFIX = f"https://kh.google.com/rt/{PLANET}/"

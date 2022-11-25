@@ -7,9 +7,9 @@ const decodeTexture = require('./lib/decode-texture');
 /**************************** config ****************************/
 const PLANET = 'earth';
 const URL_PREFIX = `https://kh.google.com/rt/${PLANET}/`;
-const DL_DIR = 'H:\\3d\\models\\photogrammetry\\earthExporterDownloads';
+const { N_OCTANTS, OCTANTS, MAX_LEVEL, DL_DIR, DUMP_JSON, DUMP_RAW, PARALLEL_SEARCH} = require('./lib/parse-command-line')(__filename);
+//const DL_DIR = 'H:\\3d\\models\\photogrammetry\\earthExporterDownloads';
 const [DUMP_OBJ_DIR, DUMP_JSON_DIR, DUMP_RAW_DIR] = ['obj', 'json', 'raw'].map(x => path.join(DL_DIR, x));
-const { OCTANTS, MAX_LEVEL, DUMP_JSON, DUMP_RAW, PARALLEL_SEARCH } = require('./lib/parse-command-line')(__filename);
 const DUMP_OBJ = !(DUMP_JSON || DUMP_RAW);
 /****************************************************************/
 
@@ -26,28 +26,36 @@ async function run() {
 	let objCtx;
 	if (DUMP_OBJ) {
 		const octName = OCTANTS.length > 3 ? `${OCTANTS.slice(0,3).join('+')}+etc` : OCTANTS.join('+');
-		const objDir = path.join(DUMP_OBJ_DIR, `${octName}-${MAX_LEVEL}-${rootEpoch}`);
+//		const objDir = path.join(DUMP_OBJ_DIR, `${octName}-${MAX_LEVEL}-${rootEpoch}`);
+		const objDir = path.join(DUMP_OBJ_DIR, `${MAX_LEVEL}`);
 		fs.removeSync(objDir);
 		fs.ensureDirSync(objDir);
 		objCtx = initCtxOBJ(objDir);
 	}
 
 	let octants = 0;
+	let total_downloaded = 0;
+	let base_octants_downloaded = 0;
 
-	const search = initNodeSearch(rootEpoch, PARALLEL_SEARCH ? 16 : 1,
-		function nodeFound(path) {
-			//console.log('found', path);
-			octants++;
-		},
-		function nodeDownloaded(path, node, octantsToExclude) {
-			console.log('downloaded', path);
-			DUMP_OBJ && writeNodeOBJ(objCtx, node, path, octantsToExclude);
-		}
-	);
+    const search = initNodeSearch(rootEpoch, PARALLEL_SEARCH ? 16 : 1,
+        function nodeFound(path) {
+            //console.log('found', path);
+            octants++;
+        },
+        function nodeDownloaded(path, node, octantsToExclude) {
+            total_downloaded++;
+            if (path.length == OCTANTS[0].length) {
+                base_octants_downloaded++;
+                console.log(path + " done.  (" + base_octants_downloaded + " / " + OCTANTS.length + ") " + total_downloaded + " Total Octants Downloaded.");
+            }
+//            console.log('downloaded', path);
+            DUMP_OBJ && writeNodeOBJ(objCtx, node, path, octantsToExclude);
+        }
+    );
 
-	for (const oct of OCTANTS) {
-		await search(oct, MAX_LEVEL);
-	}
+    for (const oct of OCTANTS) {
+        await search(oct, MAX_LEVEL);
+    }
 
 	console.log('octants', octants)
 }

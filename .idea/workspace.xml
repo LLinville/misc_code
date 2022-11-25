@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37f01169-96d8-47aa-8b0f-281e116c28d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/global_test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global_test/consumer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global_test/service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maps_model_downloader/EarthReverseEngineeringUtils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maps_model_downloader/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maps_model_downloader/downloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/misc/binary_choice_game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/osrs_friend_updater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc/file_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USGS_scraper/downloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/USGS_scraper/downloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps_model_downloader/EarthReverseEngineeringUtils/find_overlaps.py" beforeDir="false" afterPath="$PROJECT_DIR$/maps_model_downloader/EarthReverseEngineeringUtils/find_overlaps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps_model_downloader/downloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/maps_model_downloader/downloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps_model_downloader/earth-reverse-engineering/exporter/dump_obj.js" beforeDir="false" afterPath="$PROJECT_DIR$/maps_model_downloader/earth-reverse-engineering/exporter/dump_obj.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +119,7 @@
     </panes>
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -133,7 +128,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -146,7 +141,7 @@
       <recent name="C:\Users\Eracoy\Google Drive\Coding\Python projects\misc_code\greg_hex_grid" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.find_overlaps">
+  <component name="RunManager" selected="Python.downloader">
     <configuration name="binary_choice_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="misc_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,12 +163,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="downloader (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="downloader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="misc_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION" value="python" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maps_model_downloader" />
@@ -202,6 +198,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/USGS_scraper/downloader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="downloader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="misc_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION" value="python" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maps_model_downloader" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maps_model_downloader/downloader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,19 +272,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.downloader" />
       <item itemvalue="Python.osrs_friend_updater" />
       <item itemvalue="Python.binary_choice_game" />
-      <item itemvalue="Python.downloader (1)" />
       <item itemvalue="Python.find_overlaps" />
+      <item itemvalue="Python.downloader" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.downloader" />
+        <item itemvalue="Python.downloader" />
+        <item itemvalue="Python.downloader" />
         <item itemvalue="Python.find_overlaps" />
         <item itemvalue="Python.osrs_friend_updater" />
-        <item itemvalue="Python.downloader (1)" />
-        <item itemvalue="Python.binary_choice_game" />
-        <item itemvalue="Python.downloader" />
       </list>
     </recent_temporary>
   </component>
@@ -413,6 +430,26 @@
           <line>39</line>
           <option name="timeStamp" value="210" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/maps_model_downloader/downloader.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/maps_model_downloader/downloader.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/maps_model_downloader/downloader.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/maps_model_downloader/downloader.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -420,6 +457,7 @@
         <watch expression="input_file" language="Python" />
         <watch expression="input_file" />
         <watch expression="(line[0] + i, line[1] -1*i)" language="Python" />
+        <watch expression="overlaps.12 (140729535652848)" />
       </configuration>
     </watches-manager>
   </component>
