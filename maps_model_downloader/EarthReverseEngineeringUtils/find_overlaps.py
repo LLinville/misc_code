@@ -79,9 +79,12 @@ def find_overlaps(bbox, max_octants_per_level):
     for level in range(1, 21):
         if len(overlapping_octants[level]) >= max_octants_per_level:
             break
-        for octant in overlapping_octants[level]:
+        for n, octant in enumerate(overlapping_octants[level]):
             if octant.is_bulk():
+                print(f"Searching octant {n} / {len(overlapping_octants[level])} at depth {level}: Found")
                 update_overlapping_octants(octant.path)
+            else:
+                print(f"Searching octant {n} / {len(overlapping_octants[level])} at depth {level}: Not Found")
 
     return overlapping_octants
 

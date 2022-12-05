@@ -37,6 +37,7 @@ async function run() {
 	let total_downloaded = 0;
 	let base_octants_downloaded = 0;
 
+
     const search = initNodeSearch(rootEpoch, PARALLEL_SEARCH ? 16 : 1,
         function nodeFound(path) {
             //console.log('found', path);
@@ -46,7 +47,7 @@ async function run() {
             total_downloaded++;
             if (path.length == OCTANTS[0].length) {
                 base_octants_downloaded++;
-                console.log(path + " done.  (" + base_octants_downloaded + " / " + OCTANTS.length + ") " + total_downloaded + " Total Octants Downloaded.");
+                console.log(path + " done (" + base_octants_downloaded + " / " + OCTANTS.length + "), " + total_downloaded + " Total Octants Downloaded");
             }
 //            console.log('downloaded', path);
             DUMP_OBJ && writeNodeOBJ(objCtx, node, path, octantsToExclude);
@@ -178,6 +179,8 @@ function writeMeshOBJ(ctx, meshName, texName, payload, mesh, exclude) {
 			: false;
 	}
 
+	const SAVE_TEXTURE = true;
+
 	let str = "";
 	const indices = mesh.indices;
 	const vertices = mesh.vertices;
@@ -239,10 +242,12 @@ function writeMeshOBJ(ctx, meshName, texName, payload, mesh, exclude) {
 			const vt = (v + mesh.uvOffsetAndScale[1]) * mesh.uvOffsetAndScale[3];
 
 			const tex = mesh.texture;
-			if (tex.textureFormat == 6)
-				console.log(`vt ${ut} ${1 - vt}`)
-			else
-				console.log(`vt ${ut} ${vt}`)
+			if (SAVE_TEXTURE) {
+                if (tex.textureFormat == 6)
+        				console.log(`vt ${ut} ${1 - vt}`)
+                else
+        				console.log(`vt ${ut} ${vt}`)
+			}
 			c_u++;
 		}
 	}
@@ -269,7 +274,10 @@ function writeMeshOBJ(ctx, meshName, texName, payload, mesh, exclude) {
 		y = _y;
 		z = _z;
 
-		console.log(`vn ${x} ${y} ${z}`)
+        if (SAVE_TEXTURE) {
+            console.log(`vn ${x} ${y} ${z}`)
+        }
+
 		c_n++;
 	}
 
@@ -303,11 +311,13 @@ function writeMeshOBJ(ctx, meshName, texName, payload, mesh, exclude) {
 			const v = triangles[t];
 			const a = v[0] + 1, b = v[1] + 1, c = v[2] + 1;
 
-			if (mesh.uvOffsetAndScale) {
-				console.log(`f ${a + _c_v}/${a + _c_u}/${a + _c_n} ${b + _c_v}/${b + _c_u}/${b + _c_n} ${c + _c_v}/${c + _c_u}/${c + _c_n}`)
-			} else {
-				console.log(`f ${a + _c_v} ${b + _c_v} ${c + _c_v}`)
-			}
+            if (SAVE_TEXTURE) {
+                if (mesh.uvOffsetAndScale) {
+                    console.log(`f ${a + _c_v}/${a + _c_u}/${a + _c_n} ${b + _c_v}/${b + _c_u}/${b + _c_n} ${c + _c_v}/${c + _c_u}/${c + _c_n}`)
+                } else {
+                    console.log(`f ${a + _c_v} ${b + _c_v} ${c + _c_v}`)
+                }
+            }
 
 		}
 	}
