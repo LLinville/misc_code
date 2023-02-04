@@ -16,12 +16,21 @@ bounds = {
     'face_elcap':  (37.74, -119.642, 37.728, -119.622),
 
     'monterey_bay': (36.983430, -122.513328, 36.464486, -121.743036),
-    'matterhorn': (45.995416, 7.630, 45.962688, 7.681923)
+    'matterhorn': (45.995416, 7.630, 45.962688, 7.681923),
+
+    'devils_tower': (44.595, -104.718, 44.587242, -104.7108),
+
+    'lucas_oil': (39.76161, -86.165633, 39.758263, -86.161916),
+
+    'bryce_canyon': (37.625225, -112.168119, 37.613588, -112.164840),
+    'bryce_canyon_switchback': (37.623682, -112.166820, 37.620747, -112.165286)
 }
 
 # bounds_name = 'whole_park'
-bounds_name = 'face_elcap'
-bounds_name = 'matterhorn'
+# bounds_name = 'face_elcap'
+# bounds_name = 'matterhorn'
+# bounds_name = 'devils_tower'
+bounds_name = 'bryce_canyon_switchback'
 coords = bounds[bounds_name]
 
 reuse_directory = True
@@ -31,7 +40,7 @@ else:
     save_directory = base_directory + f"/{bounds_name}"
 
 
-level = 19
+level = 21
 
 overlaps = find_overlaps(LatLonBox(north=coords[0], south=coords[2], west=coords[1], east=coords[3]), 200)
 # overlaps = {
@@ -39,7 +48,7 @@ overlaps = find_overlaps(LatLonBox(north=coords[0], south=coords[2], west=coords
 #     if level in levels_to_download
 # }
 
-starting_chunk_depth = min([17, level, max(overlaps.keys())])
+starting_chunk_depth = min([18, level, max(overlaps.keys())])
 chunks_to_download = [chunk.path for chunk in overlaps[starting_chunk_depth]]
 
 # chunks_to_download = [

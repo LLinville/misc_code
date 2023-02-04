@@ -1,0 +1,17 @@
+{"Time":"2023-01-03T19:15:48.0786327-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":50487842,"Type":12,"TamperPhy":2,"TamperEnc":0,"Consumption":168040,"ChecksumVal":30717}}
+{"Time":"2023-01-03T19:16:17.1413256-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":46599803,"Type":12,"TamperPhy":0,"TamperEnc":0,"Consumption":859108,"ChecksumVal":64962}}
+{"Time":"2023-01-03T19:16:18.0793012-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":50487842,"Type":12,"TamperPhy":2,"TamperEnc":0,"Consumption":168040,"ChecksumVal":30717}}
+{"Time":"2023-01-03T19:17:46.1395472-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":46599803,"Type":12,"TamperPhy":0,"TamperEnc":0,"Consumption":859108,"ChecksumVal":64962}}
+{"Time":"2023-01-03T19:17:48.5795462-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":50487842,"Type":12,"TamperPhy":2,"TamperEnc":0,"Consumption":168040,"ChecksumVal":30717}}
+{"Time":"2023-01-03T19:19:31.6398018-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":46599803,"Type":12,"TamperPhy":0,"TamperEnc":0,"Consumption":859108,"ChecksumVal":64962}}
+{"Time":"2023-01-03T19:20:01.6416311-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":46599803,"Type":12,"TamperPhy":0,"TamperEnc":0,"Consumption":859108,"ChecksumVal":64962}}
+{"Time":"2023-01-03T19:20:03.579192-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":50487842,"Type":12,"TamperPhy":2,"TamperEnc":0,"Consumption":168040,"ChecksumVal":30717}}
+{"Time":"2023-01-03T19:21:01.1399118-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":46599803,"Type":12,"TamperPhy":0,"TamperEnc":0,"Consumption":859108,"ChecksumVal":64962}}
+{"Time":"2023-01-03T19:22:16.1405778-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":46599803,"Type":12,"TamperPhy":0,"TamperEnc":0,"Consumption":859108,"ChecksumVal":64962}}
+{"Time":"2023-01-03T19:23:16.6400218-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":46599803,"Type":12,"TamperPhy":0,"TamperEnc":0,"Consumption":859108,"ChecksumVal":64962}}
+{"Time":"2023-01-03T19:24:03.0766951-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":50487842,"Type":12,"TamperPhy":2,"TamperEnc":0,"Consumption":168040,"ChecksumVal":30717}}
+{"Time":"2023-01-03T19:24:16.6421492-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":46599803,"Type":12,"TamperPhy":0,"TamperEnc":0,"Consumption":859108,"ChecksumVal":64962}}
+{"Time":"2023-01-03T19:26:17.140303-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":46599803,"Type":12,"TamperPhy":0,"TamperEnc":0,"Consumption":859108,"ChecksumVal":64962}}
+{"Time":"2023-01-03T19:26:46.6407936-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":46599803,"Type":12,"TamperPhy":0,"TamperEnc":0,"Consumption":859108,"ChecksumVal":64962}}
+{"Time":"2023-01-03T19:27:46.6417281-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":46599803,"Type":12,"TamperPhy":0,"TamperEnc":0,"Consumption":859108,"ChecksumVal":64962}}
+{"Time":"2023-01-03T19:28:01.1407392-05:00","Offset":0,"Length":0,"Type":"SCM","Message":{"ID":46599803,"Type":12,"TamperPhy":0,"TamperEnc":0,"Consumption":859108,"ChecksumVal":64962}}

@@ -21,10 +21,8 @@ def read_initial(lines):
 
 with open(filename) as input_file:
     lines = input_file.readlines()
-# lines = [line.strip() for line in lines]
 
 initial_lines = lines[:max_size]
-
 stacks = read_initial(initial_lines)
 
 for line in lines[max_size + 2:]:

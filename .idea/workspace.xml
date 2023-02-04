@@ -1,108 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4089ae4e-25b4-4681-b471-4008d57cb2b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/advent 2022/1/day1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent 2022/1/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent 2022/2/day2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent 2022/2/day2a_answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent 2022/2/day2b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent 2022/2/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent 2022/3/day3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent 2022/3/day3b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent 2022/3/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent 2022/4/day4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent 2022/4/day4b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent 2022/4/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent 2022/5/day5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent 2022/5/day5b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent 2022/5/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent 2022/5/input_example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent 2022/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maps_model_downloader/create_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maps_model_downloader/obj_to_stl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maps_model_downloader/stl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="37f01169-96d8-47aa-8b0f-281e116c28d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/advent 2022/10/day10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advent 2022/10/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advent 2022/10/input_example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advent 2022/6/day6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advent 2022/6/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advent 2022/7/day7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advent 2022/7/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps_model_downloader/point_ cloud_skinner/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps_model_downloader/point_ cloud_skinner/point_cloud_skinner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/base_stats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/2022-12-27T1729-results.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/2022-12-28T1519-results.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_01-03-2023_27948.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_01-03-2023_6287.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_01-03-2023_7807.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_01-03-2023_8137.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_01-04-2023_13822.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_01-05-2023_17736.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_01-05-2023_19846.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_01-13-2023_22158.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_01-16-2023_16182.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_01-22-2023_22889.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_01-22-2023_29889.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_01-22-2023_4335.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_01-22-2023_4688.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_01-22-2023_5103.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_01-25-2023_22302.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_01-25-2023_3586.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_12-29-2022_20-13-42.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_12-31-2022_16554.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_12-31-2022_31247.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/captures/results_12-31-2022_9418.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/radio/electric_meter/summaries/summary.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ian_Cyrillic/cyrillic_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ian_Cyrillic/cyrillic_scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ian_Cyrillic/cyrillic_scraper_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ian_Cyrillic/cyrillic_scraper_all.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ian_Cyrillic/first_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ian_Cyrillic/first_results.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ian_Cyrillic/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Ian_Cyrillic/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ian_Cyrillic/nouns.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ian_Cyrillic/nouns.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ian_Cyrillic/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ian_Cyrillic/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USGS_scraper/downloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/USGS_scraper/downloader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USGS_scraper/elevation_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/USGS_scraper/elevation_scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2018/prob10-1/10-TheStarsAlign-Input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advent2018/prob10-1/10-TheStarsAlign-Input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2018/prob10-1/XGmXzCHL.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2018/prob10-1/XGmXzCHL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2018/prob10-1/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advent2018/prob10-1/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2018/prob10-1/prob10-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2018/prob10-1/prob10-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2018/prob11-1/prob11-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2018/prob11-1/prob11-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2018/prob12/prob12-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2018/prob12/prob12-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2018/prob12/star-solution-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2018/prob12/star-solution-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2018/prob16/prob16-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2018/prob16/prob16-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2018/prob23/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advent2018/prob23/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2018/prob23/prob23-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2018/prob23/prob23-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2018/prob25/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advent2018/prob25/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2018/prob25/prob25-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2018/prob25/prob25-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2018/prob7-1/advent 2018 7-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2018/prob7-1/advent 2018 7-1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2018/prob7-1/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advent2018/prob7-1/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/1/day1.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/1/day1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/1/day1b.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/1/day1b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/1/input" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/1/input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/2/day2.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/2/day2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/2/day2b.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/2/day2b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/2/input" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/2/input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/3/day3.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/3/day3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/3/day3b.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/3/day3b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/3/input" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/3/input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/5/day5.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/5/day5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/5/input" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/5/input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/6/day6.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/6/day6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/6/input" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/6/input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/day 18/day18.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/day 18/day18.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/day 18/input" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/day 18/input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/day 7/day7.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/day 7/day7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/day 7/day7b.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/day 7/day7b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/day 7/input" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/day 7/input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2020/parser/ll1.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020/parser/ll1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2021/22/day22.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2021/22/day22.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2021/22/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advent2021/22/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2021/4/day4.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2021/4/day4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2021/4/day4b.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2021/4/day4b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2021/4/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advent2021/4/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2021/5/day5.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2021/5/day5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2021/5/day5b-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2021/5/day5b-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2021/5/day5b.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2021/5/day5b.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2021/5/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advent2021/5/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2021/9/day9.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent2021/9/day9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent2021/9/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/advent2021/9/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greg_hex_grid/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/greg_hex_grid/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joseph-numpy-nov-2019.py" beforeDir="false" afterPath="$PROJECT_DIR$/joseph-numpy-nov-2019.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps_model_downloader/EarthReverseEngineeringUtils/find_overlaps.py" beforeDir="false" afterPath="$PROJECT_DIR$/maps_model_downloader/EarthReverseEngineeringUtils/find_overlaps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advent 2022/5/day5b.py" beforeDir="false" afterPath="$PROJECT_DIR$/advent 2022/5/day5b.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maps_model_downloader/downloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/maps_model_downloader/downloader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maps_model_downloader/earth-reverse-engineering/exporter/dump_obj.js" beforeDir="false" afterPath="$PROJECT_DIR$/maps_model_downloader/earth-reverse-engineering/exporter/dump_obj.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc/binary_choice_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/misc/binary_choice_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/misc/file_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/misc/file_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/osrs_friend_updater.py" beforeDir="false" afterPath="$PROJECT_DIR$/osrs_friend_updater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rotten_tomatoes_ratings/get_ratings.py" beforeDir="false" afterPath="$PROJECT_DIR$/rotten_tomatoes_ratings/get_ratings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rotten_tomatoes_ratings/imdb.js" beforeDir="false" afterPath="$PROJECT_DIR$/rotten_tomatoes_ratings/imdb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rotten_tomatoes_ratings/names" beforeDir="false" afterPath="$PROJECT_DIR$/rotten_tomatoes_ratings/names" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rotten_tomatoes_ratings/order_ratings.py" beforeDir="false" afterPath="$PROJECT_DIR$/rotten_tomatoes_ratings/order_ratings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rotten_tomatoes_ratings/output_copy" beforeDir="false" afterPath="$PROJECT_DIR$/rotten_tomatoes_ratings/output_copy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/sip.h" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/sip.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-18.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-18.1.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/pyparsing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-40.6.3.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-40.6.3.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/pyparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/pyparsing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/wheel-0.32.3.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel-0.32.3.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/activate.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/tcl/tk8.5/pkgIndex.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/venv/tcl/tk8.5/pkgIndex.tcl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,22 +61,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find />
-      <find>since</find>
-      <find>bytes-</find>
-      <find>bytes</find>
-      <find>print</find>
-      <find>sincets</find>
-      <find>\n\n</find>
-      <find>,b'</find>
-      <find>.</find>
+      <find>segments_per_digit</find>
     </findStrings>
-    <replaceStrings>
-      <replace>print(</replace>
-      <replace>\n</replace>
-      <replace>'</replace>
-      <replace>,'</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -146,66 +75,17 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/advent2021/16/day16.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/advent2021/16/input.txt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/advent2021/16/day16b.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/advent2021/17/day17b.py" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/advent2018/prob23/input.txt" />
-        <option value="$PROJECT_DIR$/advent2018/prob23/prob23-1.py" />
-        <option value="$PROJECT_DIR$/advent2018/prob25/input.txt" />
-        <option value="$PROJECT_DIR$/advent2018/prob25/prob25-1.py" />
-        <option value="$PROJECT_DIR$/groupme_stats-master/retrieve_msgs.py" />
-        <option value="$PROJECT_DIR$/groupme_stats-master/temp1.csv" />
-        <option value="$PROJECT_DIR$/groupme_stats-master/run_stats.py" />
-        <option value="$PROJECT_DIR$/average_differences.py" />
-        <option value="$PROJECT_DIR$/advent2019/3/advent3.py" />
-        <option value="$PROJECT_DIR$/advent2019/3/input.txt" />
-        <option value="$PROJECT_DIR$/advent2019/5/input.txt" />
-        <option value="$PROJECT_DIR$/advent2019/5/advent5.py" />
-        <option value="$PROJECT_DIR$/rotten_tomatoes_ratings/imdb.js" />
-        <option value="$PROJECT_DIR$/rotten_tomatoes_ratings/names" />
-        <option value="$PROJECT_DIR$/rotten_tomatoes_ratings/get_ratings.py" />
-        <option value="$PROJECT_DIR$/rotten_tomatoes_ratings/output" />
-        <option value="$PROJECT_DIR$/rotten_tomatoes_ratings/order_ratings.py" />
-        <option value="$PROJECT_DIR$/rotten_tomatoes_ratings/sorted_output.txt" />
-        <option value="$PROJECT_DIR$/advent2021/1/day1.py" />
-        <option value="$PROJECT_DIR$/advent2021/1/day1b.py" />
-        <option value="$PROJECT_DIR$/advent2021/1/input.txt" />
-        <option value="$PROJECT_DIR$/advent2021/2/day2.py" />
-        <option value="$PROJECT_DIR$/advent2021/2/input.txt" />
-        <option value="$PROJECT_DIR$/advent2021/2/day2b.py" />
-        <option value="$PROJECT_DIR$/advent2021/3/day3.py" />
-        <option value="$PROJECT_DIR$/advent2021/3/input.txt" />
-        <option value="$PROJECT_DIR$/advent2021/4/day4.py" />
-        <option value="$PROJECT_DIR$/advent2021/4/day4b.py" />
-        <option value="$PROJECT_DIR$/advent2021/4/input.txt" />
-        <option value="$PROJECT_DIR$/advent2021/3/day3b.py" />
-        <option value="$PROJECT_DIR$/advent2021/5/input.txt" />
-        <option value="$PROJECT_DIR$/advent2021/5/day5.py" />
-        <option value="$PROJECT_DIR$/advent2021/5/day5b.py" />
-        <option value="$PROJECT_DIR$/advent2021/6/input.txt.py" />
-        <option value="$PROJECT_DIR$/advent2021/6/day6.py" />
         <option value="$PROJECT_DIR$/advent2021/6/day6b.py" />
-        <option value="$PROJECT_DIR$/advent2021/6/input.txt" />
-        <option value="$PROJECT_DIR$/joseph-numpy-nov-2019.py" />
-        <option value="$PROJECT_DIR$/advent2021/7/day7.py" />
-        <option value="$PROJECT_DIR$/advent2021/7/day7b.py" />
-        <option value="$PROJECT_DIR$/advent2021/7/input.txt" />
-        <option value="$PROJECT_DIR$/advent2021/8/day8.py" />
-        <option value="$PROJECT_DIR$/advent2021/8/input.txt" />
-        <option value="$PROJECT_DIR$/advent2021/9/day9.py" />
-        <option value="$PROJECT_DIR$/advent2021/9/input.txt" />
-        <option value="$PROJECT_DIR$/advent2021/10/day10.py" />
-        <option value="$PROJECT_DIR$/advent2021/10/day10b.py" />
-        <option value="$PROJECT_DIR$/advent2021/10/input.txt" />
         <option value="$PROJECT_DIR$/advent2021/8/day8b.py" />
-        <option value="$PROJECT_DIR$/advent2021/14/input.txt" />
-        <option value="$PROJECT_DIR$/advent2021/14/day14.py" />
+        <option value="$PROJECT_DIR$/advent2021/9/input.txt" />
+        <option value="$PROJECT_DIR$/advent2021/9/day9.py" />
+        <option value="$PROJECT_DIR$/advent2021/18/input.txt" />
+        <option value="$PROJECT_DIR$/advent2021/18/day18.py" />
+        <option value="$PROJECT_DIR$/advent2021/22/input.txt" />
+        <option value="$PROJECT_DIR$/advent2021/22/day22.py" />
       </list>
     </option>
   </component>
@@ -216,9 +96,9 @@
     <option name="x" value="256" />
     <option name="y" value="23" />
     <option name="width" value="1424" />
-    <option name="height" value="977" />
+    <option name="height" value="1300" />
   </component>
-  <component name="ProjectId" id="22Hw6vDQI7LnPgH5M3SOmuo6qOl" />
+  <component name="ProjectId" id="26IiORcc38jIB2fFWLC0A2jzO0l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -227,6 +107,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,34 +124,40 @@
               <item name="misc_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="misc_code" type="462c0819:PsiDirectoryNode" />
               <item name="advent2021" type="462c0819:PsiDirectoryNode" />
+              <item name="2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="misc_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="misc_code" type="462c0819:PsiDirectoryNode" />
+              <item name="advent2021" type="462c0819:PsiDirectoryNode" />
+              <item name="3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="misc_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="misc_code" type="462c0819:PsiDirectoryNode" />
+              <item name="advent2021" type="462c0819:PsiDirectoryNode" />
+              <item name="4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="misc_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="misc_code" type="462c0819:PsiDirectoryNode" />
+              <item name="advent2021" type="462c0819:PsiDirectoryNode" />
               <item name="5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="misc_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="misc_code" type="462c0819:PsiDirectoryNode" />
               <item name="advent2021" type="462c0819:PsiDirectoryNode" />
-              <item name="6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="misc_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="misc_code" type="462c0819:PsiDirectoryNode" />
-              <item name="advent2021" type="462c0819:PsiDirectoryNode" />
-              <item name="7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="misc_code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="misc_code" type="462c0819:PsiDirectoryNode" />
-              <item name="advent2021" type="462c0819:PsiDirectoryNode" />
-              <item name="8" type="462c0819:PsiDirectoryNode" />
+              <item name="22" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -278,27 +165,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/advent 2022/5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/radio/electric_meter/captures" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/advent 2022/2" />
-      <recent name="$PROJECT_DIR$/advent2021/16" />
-      <recent name="$PROJECT_DIR$/advent2021/10" />
-      <recent name="$PROJECT_DIR$/advent2021/3" />
-      <recent name="$PROJECT_DIR$/advent2021/2" />
+      <recent name="C:\Users\Eracoy\Google Drive\Coding\Python projects\misc_code\radio\electric_meter\captures" />
+      <recent name="C:\Users\Eracoy\Google Drive\Coding\Python projects\misc_code\advent 2022\4" />
+      <recent name="C:\Users\Eracoy\Google Drive\Coding\Python projects\misc_code\advent 2022\3" />
+      <recent name="C:\Users\Eracoy\Google Drive\Coding\Python projects\misc_code\maps_model_downloader" />
+      <recent name="C:\Users\Eracoy\Google Drive\Coding\Python projects\misc_code\Ian_Cyrillic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/advent 2022/5" />
-      <recent name="$PROJECT_DIR$/advent 2022" />
-      <recent name="$PROJECT_DIR$/advent2021" />
-      <recent name="$PROJECT_DIR$/advent2018" />
-      <recent name="C:\Users\Eracoy\Google Drive\Python projects\misc_code\advent2018" />
+      <recent name="C:\Users\Eracoy\Google Drive\Coding\Python projects\misc_code\radio\electric_meter\captures" />
+      <recent name="C:\Users\Eracoy\Google Drive\Coding\Python projects\misc_code\maps_model_downloader" />
+      <recent name="C:\Users\Eracoy\Google Drive\Coding\Python projects\misc_code\Ian_Cyrillic\search_results\Digitální portál staroslověnštiny_files" />
+      <recent name="C:\Users\Eracoy\Google Drive\Coding\Python projects\misc_code\Ian_Cyrillic\search_results" />
+      <recent name="C:\Users\Eracoy\Google Drive\Coding\Python projects\misc_code\greg_hex_grid" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.day5b">
-    <configuration name="day1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.base_stats">
+    <configuration name="base_stats" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="misc_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,11 +193,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advent 2022/1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/radio/electric_meter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advent 2022/1/day1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/radio/electric_meter/base_stats.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,7 +206,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="day4b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="misc_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,11 +214,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advent 2022/2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advent 2022/4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advent 2022/2/day2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advent 2022/4/day4b.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,7 +227,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day2a_answer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="day7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="misc_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,11 +235,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advent 2022/2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advent 2022/7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advent 2022/2/day2a_answer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advent 2022/7/day7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,19 +248,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="downloader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="misc_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION" value="python" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advent 2022/5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maps_model_downloader" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advent 2022/5/day5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maps_model_downloader/downloader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -382,7 +270,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day5b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="downloader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="misc_code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION" value="python" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/maps_model_downloader" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maps_model_downloader/downloader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="osrs_friend_updater" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="misc_code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -390,11 +300,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advent 2022/5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advent 2022/5/day5b.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/osrs_friend_updater.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -404,19 +314,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.day1" />
-      <item itemvalue="Python.day2" />
-      <item itemvalue="Python.day2a_answer" />
-      <item itemvalue="Python.day5" />
-      <item itemvalue="Python.day5b" />
+      <item itemvalue="Python.day4b" />
+      <item itemvalue="Python.osrs_friend_updater" />
+      <item itemvalue="Python.day7" />
+      <item itemvalue="Python.base_stats" />
+      <item itemvalue="Python.downloader" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.day5b" />
-        <item itemvalue="Python.day5" />
-        <item itemvalue="Python.day2" />
-        <item itemvalue="Python.day2a_answer" />
-        <item itemvalue="Python.day1" />
+        <item itemvalue="Python.base_stats" />
+        <item itemvalue="Python.downloader" />
+        <item itemvalue="Python.osrs_friend_updater" />
+        <item itemvalue="Python.day7" />
+        <item itemvalue="Python.day4b" />
       </list>
     </recent_temporary>
   </component>
@@ -426,71 +336,50 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4089ae4e-25b4-4681-b471-4008d57cb2b1" name="Default Changelist" comment="" />
-      <created>1544745617876</created>
+      <changelist id="37f01169-96d8-47aa-8b0f-281e116c28d1" name="Default Changelist" comment="" />
+      <created>1639448957690</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1544745617876</updated>
+      <updated>1639448957690</updated>
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Doctests_in_get_ratings - 2021.09.29 at 18h 15m 54s.xml">
-      <configuration name="Doctests in get_ratings" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctests_in_get_ratings - 2021.09.29 at 18h 34m 16s.xml">
-      <configuration name="Doctests in get_ratings" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctests_in_get_ratings - 2021.09.29 at 18h 34m 26s.xml">
-      <configuration name="Doctests in get_ratings" configurationId="tests" />
-    </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="256" y="23" width="1424" height="977" extended-state="0" />
-    <editor active="true" />
+    <frame x="256" y="23" width="1424" height="1300" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17961511" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08152958" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32969603" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35254237" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39322034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1909587" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3928293" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28700566" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28682774" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.24632768" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.24629775" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32908913" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17961511" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32969603" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35254237" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39322034" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28700566" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.24632768" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32908913" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24980299" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32969603" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.32969603" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3998441" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -500,94 +389,159 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/advent2021/9/day9.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="167" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/advent2021/10/day10.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="172" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/advent2021/10/day10.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="173" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/advent2021/10/day10.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="174" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/advent2021/10/day10.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="175" />
+          <url>file://$PROJECT_DIR$/advent2021/8/day8b.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="146" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/advent2021/8/day8b.py</url>
-          <line>120</line>
-          <option name="timeStamp" value="177" />
+          <line>119</line>
+          <option name="timeStamp" value="149" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/advent2021/14/day14.py</url>
+          <url>file://$PROJECT_DIR$/advent2021/8/day8b.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/advent2021/18/day18.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/advent2021/18/day18.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/advent2021/18/day18.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/advent2021/18/day18.py</url>
           <line>22</line>
-          <option name="timeStamp" value="180" />
+          <option name="timeStamp" value="163" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/advent2021/14/day14.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="181" />
+          <url>file://$PROJECT_DIR$/advent2021/22/day22.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="165" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/advent2021/14/day14b.py</url>
+          <url>file://$PROJECT_DIR$/Ian_Cyrillic/cyrillic_scraper.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Ian_Cyrillic/cyrillic_scraper.py</url>
           <line>23</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Ian_Cyrillic/parser.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Ian_Cyrillic/parser.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Ian_Cyrillic/first_results.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Ian_Cyrillic/first_results.py</url>
+          <line>32</line>
           <option name="timeStamp" value="185" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/advent2021/15/day15.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="188" />
+          <url>file://$PROJECT_DIR$/Ian_Cyrillic/first_results.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="186" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/advent2021/16/day16.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="205" />
+          <url>file://$PROJECT_DIR$/USGS_scraper/elevation_scraper.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="200" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/advent2021/16/day16.py</url>
-          <line>131</line>
-          <option name="timeStamp" value="220" />
+          <url>file://$PROJECT_DIR$/misc/binary_choice_game.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="210" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/advent2021/17/day17b.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="228" />
+          <url>file://$PROJECT_DIR$/maps_model_downloader/downloader.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="218" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/global_test/consumer.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="229" />
+          <url>file://$PROJECT_DIR$/maps_model_downloader/downloader.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="225" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/advent 2022/1/day1.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="232" />
+          <url>file://$PROJECT_DIR$/maps_model_downloader/downloader.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="226" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/advent 2022/1/day1.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="233" />
+          <url>file://$PROJECT_DIR$/maps_model_downloader/obj_to_stl.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="235" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/advent 2022/1/day1.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="234" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/advent 2022/5/day5.py</url>
-          <line>29</line>
+          <url>file://$PROJECT_DIR$/venv/virtualenv/Lib/site-packages/src/obj_to_stl/run_obj_to_stl.py</url>
+          <line>30</line>
           <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/virtualenv/Lib/site-packages/src/obj_to_stl/run_obj_to_stl.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/maps_model_downloader/obj_to_stl.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/advent 2022/3/day3.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/advent 2022/7/day7.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/advent 2022/7/day7.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/advent 2022/7/day7.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/radio/electric_meter/base_stats.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/maps_model_downloader/downloader.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/maps_model_downloader/downloader.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="286" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -595,354 +549,73 @@
       <configuration name="PythonConfigurationType">
         <watch expression="input_file" language="Python" />
         <watch expression="input_file" />
-        <watch expression="(value, version), n_bits_read" language="Python" />
+        <watch expression="(line[0] + i, line[1] -1*i)" language="Python" />
+        <watch expression="overlaps.12 (140729535652848)" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>[
-    digit_by_segments[frozenset([segments_by_wire[w] for w in digit_wires])]
-    for digit_wires in outputs_wires[0]
-]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>[
-    digit_by_segments[set([segments_by_wire[w] for w in digit_wires])]
-    for digit_wires in outputs_wires[0]
-]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>range(a, b+1)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>range(line[1], line[3]+1)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>range(line[1], line[3]+1, 1 if line[3]&gt;line[1] else -1)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>range(line[1], line[3]+1, 1 if line[3]&gt;line[1] else -1):</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>pattern.match(lines[0]).groups()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pattern.match(lines[0])</expression-string>
+        <expression-string>[[int(i) for i in pattern.match(line).groups()] for line in lines]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>re.compile(&quot;(\d+),(\d+) -&gt; (\d+),(\d+)&quot;).match(&quot;123,234 -&gt; 1,2&quot;)</expression-string>
+        <expression-string>add(*parse(lines[0]), *parse(lines[1]))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
-    </expressions>
-    <expressions id="breakpointCondition">
       <expression>
-        <expression-string>i == 10000</expression-string>
+        <expression-string>parse(lines[0])</expression-string>
         <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>i == 10050</expression-string>
+        <expression-string>eval(line)</expression-string>
         <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>i % 1000 == 0</expression-string>
+        <expression-string>list('abc')</expression-string>
         <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>i == 1000</expression-string>
+        <expression-string>[line.strip() for line in input_file.readlines() if len(line) &gt; 1]</expression-string>
         <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>__</expression-string>
+        <expression-string>segment_mapping([set(m) for m in digits_segments[0]])</expression-string>
         <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="watch">
-      <expression>
-        <expression-string>heights[x+offset[0]][y+offset[1]]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>y + offset[1]</expression-string>
+        <expression-string>{
+        i: list(allowed_mappings[i])[0] for i in range(7)
+    }</expression-string>
         <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>x + offset[0]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>count_by_age.values()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>new_count_by_age.values()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>input_file</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>outputs_wires[0]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>set([segments_by_wire[w] for w in outputs_wires[0]])</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>reduced.replace(reduction, &quot;&quot;)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>height &gt; heights[x+offset[0]][y+offset[1]]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>heights[x+offset[0]][y+offset[1]]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>y + offset[1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>print_mapping_grid(allowed_mappings)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>set(range(7)) - {segment}</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>all_options - connected_wires</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/advent2019/3/advent3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2019/3/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="71" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2019/5/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret column="2553" selection-start-column="2553" selection-end-column="2553" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/urllib/request.py" />
-    <entry file="file://$USER_HOME$/virtualenv/graphicsMisc/Lib/site-packages/requests/api.py" />
-    <entry file="file://$PROJECT_DIR$/rotten_tomatoes_ratings/imdb.js" />
-    <entry file="file://$PROJECT_DIR$/rotten_tomatoes_ratings/output_copy" />
-    <entry file="file://$PROJECT_DIR$/rotten_tomatoes_ratings/output" />
-    <entry file="file://$PROJECT_DIR$/rotten_tomatoes_ratings/sorted_output.txt" />
-    <entry file="file://$PROJECT_DIR$/rotten_tomatoes_ratings/names" />
-    <entry file="file://$PROJECT_DIR$/rotten_tomatoes_ratings/get_ratings.py" />
-    <entry file="file://$PROJECT_DIR$/rotten_tomatoes_ratings/order_ratings.py" />
-    <entry file="file://$PROJECT_DIR$/advent2019/5/advent5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/1/day1b.py" />
-    <entry file="file://$PROJECT_DIR$/advent2021/1/input.txt" />
-    <entry file="file://$PROJECT_DIR$/advent2021/4/day4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2020/parser/ll1.py">
+    <entry file="file://$PROJECT_DIR$/advent2021/1/day1b.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/advent2020/day 18/input">
+    <entry file="file://$PROJECT_DIR$/advent2021/4/day4b.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/4/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10602">
-          <caret line="589" selection-end-line="600" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2020/day 18/day18.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/2/day2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/2/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14985">
-          <caret line="999" column="9" selection-start-line="999" selection-start-column="9" selection-end-line="999" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/3/day3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/3/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="12" selection-end-line="999" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/3/day3b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="57" lean-forward="true" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/1/day1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/2/day2b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/6/day6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joseph-numpy-nov-2019.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/average_differences.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="88" lean-forward="true" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/7/day7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="44" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/7/day7b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/6/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/5/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="499" column="17" selection-start-line="499" selection-start-column="17" selection-end-line="499" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3258">
-          <caret line="247" column="4" selection-start-line="247" selection-start-column="4" selection-end-line="247" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/7/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3839" selection-start-column="3839" selection-end-column="3839" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advent2021/5/day5b.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+        <state relative-caret-position="396">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -951,104 +624,170 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/advent2021/5/day5b-2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-671">
+        <state relative-caret-position="801">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/4/day4b.py">
+    <entry file="file://$PROJECT_DIR$/advent2021/5/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="959">
+          <caret line="499" column="17" selection-end-line="499" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/6/day6b.py">
+    <entry file="file://$PROJECT_DIR$/advent2021/6/day6.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/6/input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotten_tomatoes_ratings/output_copy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="-7786" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joseph-numpy-nov-2019.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/average_differences.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="88" lean-forward="true" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="88" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/8/day8.py">
+    <entry file="file://$PROJECT_DIR$/rotten_tomatoes_ratings/get_ratings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="414">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2018/prob25/prob25-1.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/advent2021/9/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="99" column="100" selection-start-line="99" selection-start-column="100" selection-end-line="99" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/10/day10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/10/day10b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/10/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="97" column="106" selection-start-line="97" selection-start-column="106" selection-end-line="97" selection-end-column="106" />
+        <state relative-caret-position="1224">
+          <caret line="68" column="100" selection-start-line="68" selection-start-column="100" selection-end-line="68" selection-end-column="100" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advent2021/9/day9.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="306">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/8/input.txt">
+    <entry file="file://$PROJECT_DIR$/advent2021/7/day7.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/8/day8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="86" selection-start-column="86" selection-end-column="86" />
+        <state relative-caret-position="234">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advent2021/8/day8b.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="124" column="16" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="16" />
+        <state relative-caret-position="756">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/2/day2b.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/3/day3b.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/15/day15b.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/15/day15.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/16/day16b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/17/day17b.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/14/day14b.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/7/day7b.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/6/day6b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/16/day16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/18/day18.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/18/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/2/day2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/3/day3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent2021/4/day4.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/advent2021/5/day5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="78" />
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="74" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/14/day14.py">
+    <entry file="file://$PROJECT_DIR$/advent2021/22/day22.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="78" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advent2021/14/input.txt">
+    <entry file="file://$PROJECT_DIR$/advent2021/22/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="378">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
         </state>
       </provider>
     </entry>

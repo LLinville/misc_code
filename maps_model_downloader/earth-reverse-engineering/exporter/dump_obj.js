@@ -45,12 +45,15 @@ async function run() {
         },
         function nodeDownloaded(path, node, octantsToExclude) {
             total_downloaded++;
-            if (path.length == OCTANTS[0].length) {
+            //if (path.length == OCTANTS[0].length) {
+            if (path.length ==  MAX_LEVEL) {
                 base_octants_downloaded++;
                 console.log(path + " done (" + base_octants_downloaded + " / " + OCTANTS.length + "), " + total_downloaded + " Total Octants Downloaded");
+                DUMP_OBJ && writeNodeOBJ(objCtx, node, path, octantsToExclude);
+            } else {
+                console.log(path + " skipped. Not at target depth")
             }
 //            console.log('downloaded', path);
-            DUMP_OBJ && writeNodeOBJ(objCtx, node, path, octantsToExclude);
         }
     );
 
@@ -95,7 +98,10 @@ function initNodeSearch(rootEpoch, numParallelBranches = 1, nodeFound = null, no
 						const octs = results.filter(({ res }) => res).map(({ oct }) => oct)
 						const node = await getNode(k, check.bulk, check.index);
 						try {
-							nodeDownloaded && nodeDownloaded(k, node, octs);
+							setTimeout(() => {
+							    console.log("starting " + k);
+							    nodeDownloaded && nodeDownloaded(k, node, octs);
+							}, 1000 + Math.random() * 1000);
 						} catch (ex) {
 							console.error('Unhandled nodeDownload callback error');
 							throw ex;
